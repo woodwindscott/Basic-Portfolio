@@ -37,6 +37,14 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: gray;
 }
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
 footer {
     width: auto;
     background: #666666;
@@ -98,4 +106,96 @@ form {
     margin: auto;
     background: white;
     padding: 10px;
+}
+.maincontent-2 {
+    width: 960px;
+    height: 1170px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+.image {
+    position: relative;
+    width: 100%;
+}
+.label-left1 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin-left: 218px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    z-index: 2;
+}
+.label-left2 {
+    position: absolute;
+    bottom: -340px;
+    left: 0;
+    margin-left: 218px;
+    margin-bottom: 0px;
+    width: 350px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    z-index: 2;
+}
+.label-right1 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin-left: 608px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    z-index: 2;
+}
+.label-right2 {
+    position: absolute;
+    bottom: -340px;
+    left: 0;
+    margin-left: 608px;
+    margin-bottom: 0px;
+    width: 350px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    z-index: 2;
+}
+.label-left3 {
+    position: absolute;
+    bottom: -730px;
+    left: 0;
+    margin-left: 218px;
+    margin-bottom: 0px;
+    width: 350px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    z-index: 2;
+}
+.background {
+    width: auto;
+    background: #dddddd;
+    clear: both;
+    height: 1320px;
 }
